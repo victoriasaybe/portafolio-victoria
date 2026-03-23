@@ -1,0 +1,95 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f7f3f0;
+}
+
+header {
+  background: linear-gradient(135deg, #f3e9e3, #e8dcd3);
+  color: #333;
+  padding: 140px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-family: 'Playfair Display', serif;
+  color: #777;
+  font-size: 18px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  font-size: 15px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+#servicios {
+  background-color: #fff;
+}
+
+#servicios i {
+  color: #c8a27a;
+}
+
+img {
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+#portafolio {
+  background-color: #fdfdfd;
+}
+
+#contacto {
+  background-color: #f1eae6;
+}
+
+input, textarea {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #c8a27a;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #a67c52;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #c8a27a;
+  margin: 10px auto;
+}
